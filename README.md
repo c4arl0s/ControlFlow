@@ -20,7 +20,17 @@ This example describes one common interaction that requires multiple checks and 
 Based on the outcome of a set of conditions, you can use a variety of statements to control what code is executed. These conditional statements are all examples of control flow.
 
 # 1. [Logical Operators](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
+Each `if` statements uses a logical operator to decide if something is `true` or `false`. The result determines whether to run the block of code or to skip it.
+
+Start by taking a look through this list of the most common logical operators.
+
+![Screen Shot 2021-03-19 at 13 49 34](https://user-images.githubusercontent.com/24994818/111834971-f6732280-88b9-11eb-9b92-321743cf7f07.png)
+
+You can mix and match logical operators to create what is called a Boolean value, or `Bool`. Boolean values are either `true` or `false` and can be combined with an `if` statement to determine if code should be run or skipped.
+
 # 2. [If statements](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
 # 3. [if-else Statements](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 4. [Boolean Values](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#controlflow---content)
