@@ -31,6 +31,25 @@ You can mix and match logical operators to create what is called a Boolean value
 
 # 2. [If statements](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 
+The most straightforward conditional statement is the `if` statement. An `if` statement basically says "if this condition is true, then run this block of code". If the condition is not true, the program will skip the block of code.
+
+In most cases, you will use an `if` statement to check simple conditions with only a few possible outcomes. Here is an example:
+
+```swift
+let temperature = 100
+if temperature >= 100 {
+    print("the water is boiling")
+}
+```
+
+Console output:
+
+```console
+the water is boiling
+```
+
+The `temperature` constant is equal to `100` and the `if` statement prints text if `temperature` is greater than or equal to `100`. Because the `if` statement resolves to `true`, the block of code accompanying the `if` statement is executed.
+
 # 3. [if-else Statements](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 4. [Boolean Values](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#controlflow---content)
