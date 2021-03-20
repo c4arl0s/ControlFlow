@@ -154,4 +154,61 @@ You can use your laptop.
 ```
 
 # 5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
+You have seen `if` statements and `if-else` statements that allow you to run certain blocks of code depending on certain conditions. But a long chain of `if`, `else if`, `else if ... else` statements can become messy and hard to read after a small number of options. Swift gas another tool for control flow called a `switch` statement, which is great for working many potential conditions.
+
+A basic `switch` statement takes a value with multiple options and allows you to run separate code based on each option, or `case`. You can also provide a `default` case to specify a block of code that will run in all the cases you have not specifically defined.
+
+Consider the code that prints a name for a vehicle based on its number of wheels:
+
+```swift
+let numberOfWheels = 2
+switch numberOfWheels {
+case 1:
+    print("Unicylce")
+case 2:
+    print("Bicycle")
+case 3:
+    print("Tricycle")
+case 4:
+    print("Quadcycle")
+defualt:
+    print("That is a lot of wheels!")
+}
+```
+
+Given a constant `numberOfWheels`, the code provides a separate action if the value is 1, 2, 3, or 4. It also provides an action if `numberOfWheels`is anything else.
+
+This code could be written as a nested `if-else` statement, but it would quickly become difficult to parse.
+
+Any given `case` statement can also evaluate multiple conditions at once. The following code, for example, checks whether a character is a vowel or not:
+
+```swift
+let character = "z"
+switch characther {
+case "a", "e", "i", "o", "u" :
+    print("This character is a vowel.")
+default:
+    print("This character is a constant.")
+}
+```
+
+When working with numbers, you can use interval matching to check for inclusion in a range. Take a look at the syntax in the following code snippet:
+
+```swift
+switch distance {
+case 0...9:
+    print("Your destination is close.")
+case 10...99:
+    print("Your destination is a medium distance from here.")
+case 100...999:
+    print("Your destination is far from here.")
+default:
+    print("Are you sure you want to travel this far?.")
+}
+
+```
+
+The `switch` operator is the right tool for control flow when you want to run different code based on many different conditions.
+
 # 6. [Ternary Operator](https://github.com/c4arl0s/ControlFlow#controlflow---content)
