@@ -79,5 +79,79 @@ if finishPosition == 1 {
 You can use many `else if` statements to account for any number of potential cases.
 
 # 4. [Boolean Values](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
+You can assign the results of a logical operator to a `Bool` constant or variable in order to check or access the value later. `Bool` values can only be `true` or `false`.
+
+In the following code, the `Bool` statement determines that `number` does not qualify as `isSmallNumber`.
+
+```swift
+let number = 1000
+let isSmallNumber = number < 10
+// number is not less  than 10, so isSmallNumber is assigned a false value-
+```
+
+And here, the `bool` statement determines that `currentSpeed` does not qualify as `isSpeeding`.
+
+```swift
+let speedLimit = 65
+let currentSpeed = 72
+let isSpeeding = currentSpeed > speedLimit
+// currentSpeed is greater than the speedLimit, so isSpeeding is assigned a true value.
+```
+
+It is also possible to invert a `Bool` value using the logical NOT operator, which is represented with `!`.
+
+```swift
+var isSnowing = false
+if !isSnowing {
+    print("It is not snowing.")
+}
+```
+
+Console output:
+
+```console
+It is not snowing.
+```
+
+In the same way, you can use the logical AND operator, represented by `&&`, to check if two or more conditions are true.
+
+```swift
+let temperature = 100
+if temperature >= 65 && temperature <= 75 {
+    print("The temperature is just right.")
+} else if temperature < 65 {
+    print("It is too cold.")
+} else {
+    print("It is too hot.")
+}
+```
+
+Console output:
+
+```console
+The temperature is just right.
+```
+
+In the above code, the temperature meets both conditions: It is greater than or equal to 65 degrees and less than or equal to 75 degrees. It is just right.
+
+You have yet another option: the logical OR operator, presented by `||`, to check if either one of two conditions is true.
+
+```swift
+var isPluggedIn = false
+var hasBatteryPower = true
+if isPluggedIn || hasBatteryPower {
+    print("You can use your laptop.")
+} else {
+    print("woow")
+}
+```
+
+Console output:
+
+```console
+You can use your laptop.
+```
+
 # 5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 6. [Ternary Operator](https://github.com/c4arl0s/ControlFlow#controlflow---content)
