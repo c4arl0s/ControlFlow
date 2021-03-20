@@ -51,6 +51,33 @@ the water is boiling
 The `temperature` constant is equal to `100` and the `if` statement prints text if `temperature` is greater than or equal to `100`. Because the `if` statement resolves to `true`, the block of code accompanying the `if` statement is executed.
 
 # 3. [if-else Statements](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
+You just learned that an `if` statements will run a block of code if the condition is true. But what if the condition is not true?. By adding an `else` clause to an `if` statement, you can specify a block of code to execute if the condition is not true.
+
+```swift
+let temperature = 100
+if temperature >= 100 {
+    print("The water is boiling.")
+} else {
+    print("The water is not boiling")
+}
+```
+
+You can take this idea even further. By using `else if`, you can declare more blocks of code to run based on any number of conditions. The following code checks for the position of an athlete in a race and responds accordingly:
+
+```swift
+var finishPosition = 2
+if finishPosition == 1 {
+    print("Congratulations, you won the gold medal!")
+} else if finishPosition == 2 {
+    print("You came in second place, you won a silver medal!")
+} else {
+    print("You did not win a gold or silver medal.")
+}
+```
+
+You can use many `else if` statements to account for any number of potential cases.
+
 # 4. [Boolean Values](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 # 6. [Ternary Operator](https://github.com/c4arl0s/ControlFlow#controlflow---content)
