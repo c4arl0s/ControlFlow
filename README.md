@@ -1,4 +1,4 @@
-# [go back Overview](https://github.com/c4arl0s)
+# [go back Overview](https://github.com/c4arl0s/AppDevelopmentWithSwift#1-getting-started-with-app-development)
 
 # [ControlFlow - Content](https://github.com/c4arl0s/ControlFlow#go-back-overview)
 
@@ -212,3 +212,40 @@ default:
 The `switch` operator is the right tool for control flow when you want to run different code based on many different conditions.
 
 # 6. [Ternary Operator](https://github.com/c4arl0s/ControlFlow#controlflow---content)
+
+An interesting (and very common) use case for an `if` statement is to set a variable or return a value. If a certain condition is `true`, you want to set a variable to one value. If the condition is `false`, you want to set the variable to a different value.
+
+Consider the following code. It checks if the value of one number is greater than the other and assigns the higher value to a `largest` variable:
+
+```swift
+var largest: Int
+let a = 15
+let b = 4
+if a > b {
+    largest = a
+} else {
+    largest = b
+}
+```
+
+Because this situation is so common in programming, many languages include a special operator, called a ternary operator (`?:`), for writing more concise code.
+
+The ternary operator has three parts:
+
+1. A question with a `true` or `false` answer.
+2. A value if the answer to the question is `true`.
+3. A value if the answer to the question is `false`.
+
+here is an example:
+
+```swift
+var largest: Int
+let a = 15
+let b = 4
+largest = a > b ? a : b
+```
+
+Take a close look at the last line of code. You can read it as: "If `a > b`, assign `a` to the `largest` constant, otherwise, assign `b`. In this case, `a` is greater than `b`, so it is assigned to `largest`.
+
+Keep in mind that it is never required that you use the ternary operator in Swift. But it is very useful shorthand for assigning a value based on a condition, rather than resorting to a more complex `if-else` statement.
+
