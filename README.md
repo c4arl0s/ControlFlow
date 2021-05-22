@@ -2,13 +2,13 @@
 
 # [ControlFlow - Content](https://github.com/c4arl0s/ControlFlow#go-back-overview)
 
-1. [Logical Operators](https://github.com/c4arl0s/ControlFlow#1-logical-operators)
-2. [If statements](https://github.com/c4arl0s/ControlFlow#2-if-statements)
-3. [if-else Statements](https://github.com/c4arl0s/ControlFlow#3-if-else-statements)
-4. [Boolean Values](https://github.com/c4arl0s/ControlFlow#4-boolean-values)
-5. [Switch Statement](https://github.com/c4arl0s/ControlFlow#5-switch-statement)
-6. [Ternary Operator](https://github.com/c4arl0s/ControlFlow#6-ternary-operator)
-
+1. [x] [1. Logical Operators](https://github.com/c4arl0s/ControlFlow#1-logical-operators)
+2. [x] [2. If statements](https://github.com/c4arl0s/ControlFlow#2-if-statements)
+3. [x] [3. if-else Statements](https://github.com/c4arl0s/ControlFlow#3-if-else-statements)
+4. [x] [4. Boolean Values](https://github.com/c4arl0s/ControlFlow#4-boolean-values)
+5. [x] [5. Switch Statement](https://github.com/c4arl0s/ControlFlow#5-switch-statement)
+6. [x] [6. Ternary Operator](https://github.com/c4arl0s/ControlFlow#6-ternary-operator)
+ 
 # [ControlFlow](https://github.com/c4arl0s/ControlFlow#controlflow---content)
 
 Think of an application you use that requires you to log in. If you launch the application and you are already logged in, the app displays your data. If you are not logged in, the app asks for your login credentials. If you enter a correct user name and password, you are logged in  and the app displays your data. If you enter incorrect credentials, you are asked to enter the correct information.
